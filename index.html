@@ -1,1 +1,29 @@
 <!--Aquí se desarrollará la estructura html de la página-->
+<html>
+  <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <title>INI files</title>
+
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+     <script type="text/javascript" src="ini.js"></script>
+  </head>
+  <body>
+    <h1>PRÁCTICA3 ARCHIVOS INI</h1>
+    <input type="file" id="fileinput" />
+    <div id="out" class="hidden">
+    <table>
+      <tr><th>ORIGINAL</th><th>TOKENS</th></tr>
+      <tr>
+        <td>
+          <pre class="input" id="initialinput"></pre>
+        </td>
+        <td>
+          <pre class="output" id="finaloutput"></pre>
+        </td>
+      </tr>
+    </table>
+    </div>
+  </body>
+</html>
